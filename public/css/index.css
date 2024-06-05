@@ -47,13 +47,20 @@ body {
 	margin: 0 auto;
 	font-family: var(--font-family);
 	color: var(--text-color);
-	background-color: var(--background-color);
+/*	background-color: var(--background-color); */
+	
+	
 }
+
 html {
 	overflow-y: scroll;
+	background-image: url(/img/deso-legacy-min-1280.png); 
+	background-position: top; 
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 body {
-	max-width: 40em;
+	max-width: 55em;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -91,6 +98,8 @@ a[href]:active {
 
 main {
 	padding: 1rem;
+	background-color: white;
+	margin-top: 50px;
 }
 main :first-child {
 	margin-top: 0;
@@ -98,6 +107,7 @@ main :first-child {
 
 header {
 	border-bottom: 1px dashed var(--color-gray-20);
+	background-color: white;
 }
 header:after {
 	content: "";
@@ -267,4 +277,12 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
+}
+.guildimg {
+    float: right;
+    border: 1px;
+    border-style: solid;
+    border-color: blue;
+    height: 128px;
+    width: 128px;
 }
