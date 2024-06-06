@@ -196,7 +196,7 @@ header {
 .postlist-item {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: baseline;
+	align-items: center;
 	counter-increment: start-from -1;
 	margin-bottom: 1em;
 }
@@ -279,10 +279,15 @@ h2 + .header-anchor {
 	font-size: 1.5em;
 }
 .guildimg {
+	position: relative;
+    top: -100px;
     float: right;
     border: 1px;
     border-style: solid;
     border-color: blue;
     height: 128px;
     width: 128px;
+}
+.guildimg img {
+    width: 127px;
 }
