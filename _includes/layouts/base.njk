@@ -55,27 +55,28 @@
 			{{ content | safe }}
 		</main>
 
-		<footer>
-			<div class="fluff">
-				<div class="legal">© ArenaNet LLC. All rights reserved. NCSOFT, ArenaNet, Guild Wars, Guild Wars 2, GW2, Guild Wars 2: Heart of Thorns, Guild Wars 2: Path of Fire, Guild Wars 2: End of Dragons, and Guild Wars 2: Secrets of the Obscure and all associated logos, designs, and composite marks are trademarks or registered trademarks of NCSOFT Corporation.</div>
-				<div class="author"> Made by Minky for <a href="" title="ungrateful sods">Desolation Community</a> <br>
-				using Community resources and supplied media kits</div>
-			</div>
-			<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+		
+
+		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+	</body>
+	<footer>
+		<div class="fluff">
+			<div class="legal">© ArenaNet LLC. All rights reserved. NCSOFT, ArenaNet, Guild Wars, Guild Wars 2, GW2, Guild Wars 2: Heart of Thorns, Guild Wars 2: Path of Fire, Guild Wars 2: End of Dragons, and Guild Wars 2: Secrets of the Obscure and all associated logos, designs, and composite marks are trademarks or registered trademarks of NCSOFT Corporation.</div>
+			<div class="author"> Made by Minky for <a href="" title="ungrateful sods">Desolation Community</a> <br>
+			using Community resources and supplied media kits</div>
+		</div>
+		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
-  kofiWidgetOverlay.draw('deajae', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#5cb85c',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
+kofiWidgetOverlay.draw('deajae', {
+'type': 'floating-chat',
+'floating-chat.donateButton.text': 'Support me',
+'floating-chat.donateButton.background-color': '#5cb85c',
+'floating-chat.donateButton.text-color': '#fff'
+});
 </script>
 <style>
 .floatingchat-container-wrap { left:unset; right: 16px; }
 .floating-chat-kofi-popup-iframe { left:unset; right: 16px; }
 </style>
-		</footer>
-
-		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
-	</body>
+	</footer>
 </html>
