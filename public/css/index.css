@@ -57,7 +57,7 @@ html {
 	background-image: url(/img/deso-legacy-min-1280.png); 
 	background-position: top; 
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: cover;
 }
 body {
 	max-width: 55em;
