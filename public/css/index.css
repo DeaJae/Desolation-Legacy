@@ -304,3 +304,9 @@ h2 + .header-anchor {
     padding-top: 10px;
     padding-right: 20px;
 }
+footer {
+    margin-top: 100px;
+    bottom: 0;
+    display: inline-grid;
+    min-height: 500px;
+    width: 100%; }
