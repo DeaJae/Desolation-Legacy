@@ -291,3 +291,16 @@ h2 + .header-anchor {
 .guildimg img {
     width: 127px;
 }
+.fluff {
+    padding: 15px;
+    color: white;
+    text-shadow: 1px 1px BLACK;
+}
+.legal {
+    padding: 0 70px 0 20px;
+}
+.author {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
