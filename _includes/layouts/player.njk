@@ -4,7 +4,7 @@ layout: layouts/base.njk
 {# Only include the syntax highlighter CSS on blog posts #}
 {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
 {%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
-<h1>{{ title }} - [{{guildMain}}]</h1><div class="guildimg"><img src="/img/players/{{playerPicture}}" alt="Player image  for {{title}} guild - [{{guildMain}}]"></div>
+<h1>{{ title }} - [{{GuildMain}}]</h1><div class="guildimg"><img src="/img/players/{{playerPicture}}" alt="Player image  for {{title}} guild - [{{guildMain}}]"></div>
 
 <ul class="post-metadata">
 	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>

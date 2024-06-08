@@ -11,12 +11,12 @@
 			{% if post.data.guildLogo %}<img class="characterportrait" src="{{post.data.guildLogo}}"> {% endif %}
                     <div class="topright">
                         <h3 class="charactername"> {{post.data.title}}</h3></a>
-                        {% if post.data.GuildMain %}<p class="characterguilds"> [{{post.data.GuildMain}}] , [{{post.data.GuildWR}}]</p> {% endif %}
+                        {% if post.data.GuildMain %}<p class="characterguilds"> [{{post.data.GuildMain}}] {% if post.data.GuildWR %}, [{{post.data.GuildWR}}]{% endif %}</p> {% endif %}
                     </div>
                 </div>
            {% if post.data.quote %} <div class="charactermotto">
                 <p>{{post.data.quote}}</p>
-                <p class="quotemark">❞</p> {% endif %}
+                <p class="quotemark">❞</p></div> {% endif %}
             </div>     
 
 {% endfor %}
