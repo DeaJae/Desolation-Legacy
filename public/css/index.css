@@ -292,7 +292,9 @@ h2 + .header-anchor {
     width: 128px;
 }
 .guildimg img {
-    width: 127px;
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
 }
 .fluff {
     padding: 15px;
