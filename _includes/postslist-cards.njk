@@ -6,7 +6,7 @@
             <div class="toprow">
 			{% if post.data.playerPicture%}
                 <div class="imgcontainer">
-				<a href="{{post.data.url}}"><img class="characterportrait" src="/img/players/{{post.data.playerPicture}}"></div> 
+				<a href="{{post.url}}"><img class="characterportrait" src="/img/players/{{post.data.playerPicture}}"></div> 
 				{% endif %}
 			{% if post.data.guildLogo %}<img class="characterportrait" src="{{post.data.guildLogo}}"> {% endif %}
                     <div class="topright">
