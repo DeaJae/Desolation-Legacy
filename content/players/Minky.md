@@ -3,7 +3,7 @@ title: "Minky"
 Classes: "all"
 Commander: "yes, but no"
 GuildMain: "INVI"
-guildWR: RG
+GuildWR: "RG"
 playerPicture: "mink.jpg"
 contact: "Desolation Discord"
 quote: "well bugger this!"

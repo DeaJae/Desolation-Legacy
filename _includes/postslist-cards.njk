@@ -6,12 +6,12 @@
             <div class="toprow">
 			{% if post.data.playerPicture%}
                 <div class="imgcontainer">
-				<img class="characterportrait" src="/img/players/{{post.data.playerPicture}}"></div> 
+				<a href="{{post.data.url}}"><img class="characterportrait" src="/img/players/{{post.data.playerPicture}}"></div> 
 				{% endif %}
 			{% if post.data.guildLogo %}<img class="characterportrait" src="{{post.data.guildLogo}}"> {% endif %}
                     <div class="topright">
-                        <h3 class="charactername"> {{post.data.title}}</h3>
-                        {% if post.data.GuildMain %}<p class="characterguilds"> [{{post.data.GuildMain}}], [{{guildWR}}]</p> {% endif %}
+                        <h3 class="charactername"> {{post.data.title}}</h3></a>
+                        {% if post.data.GuildMain %}<p class="characterguilds"> [{{post.data.GuildMain}}] , [{{post.data.GuildWR}}]</p> {% endif %}
                     </div>
                 </div>
            {% if post.data.quote %} <div class="charactermotto">
