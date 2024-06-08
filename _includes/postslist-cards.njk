@@ -4,9 +4,9 @@
 {% for post in postslist | reverse %}
         <div class="characterbox">
             <div class="toprow">
-			{% if post.data.playerPicture%}
+			<a href="{{post.url}}">{% if post.data.playerPicture%}
                 <div class="imgcontainer">
-				<a href="{{post.url}}"><img class="characterportrait" src="/img/players/{{post.data.playerPicture}}"></div> 
+				<img class="characterportrait" src="/img/players/{{post.data.playerPicture}}"></div> 
 				{% endif %}
 			{% if post.data.guildLogo %}<img class="characterportrait" src="{{post.data.guildLogo}}"> {% endif %}
                     <div class="topright">
