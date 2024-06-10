@@ -99,6 +99,7 @@ main {
 	background-color: white;
 	margin-top: 50px;
     width: 90%;
+	max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -426,6 +427,7 @@ footer {
 
 .quotemark{
 margin-right:0px;
+margin-top: 0;
 margin-left:auto;
 padding-left:0.5em;
 color:brown;
