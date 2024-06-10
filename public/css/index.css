@@ -98,7 +98,7 @@ main {
 	padding: 2rem;
 	background-color: white;
 	margin-top: 50px;
-    width: 55em;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -159,9 +159,10 @@ header {
 	gap: 1em .5em;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 	padding: 1em;
 	margin: auto;
-    width: 55em;
+    width: auto;
 }
 .home-link {
 	font-size: 1em; /* 16px /16 */
