@@ -460,3 +460,6 @@ color:brown;
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
+main .guildimg {
+    position: static;
+}
