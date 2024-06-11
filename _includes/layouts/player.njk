@@ -13,8 +13,11 @@ layout: layouts/base.njk
 	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
 	{%- endfor %}
 </ul>
-
-{{ content | safe }}
+{% if quote %} <div class="charactermotto">
+                <p>{{quote}}</p>
+                <p class="quotemark">❞</p></div> {% endif %}
+<div class="post-content">{{ content | safe }}
+</div>
 
 {%- if collections.players %}
 {%- set previousPost = collections.players | getPreviousCollectionItem %}

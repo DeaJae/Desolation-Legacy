@@ -255,6 +255,7 @@ header {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	margin-bottom: 5%;
 }
 .post-metadata time {
 	margin-right: 1em;
@@ -436,12 +437,12 @@ color:brown;
 
   .characterbox:hover {
     transform: scale(1.02) translateY(-2px);
-        transition-duration:0.5s;
+        transition-duration:0.2s;
 }
 
 .characterbox:not(:hover){
     transform: scale(1.0) translateY(2px);
-    transition-duration:0.5s;
+    transition-duration:0.2s;
 }
 
   @media screen and (max-width: 992px) {
@@ -451,3 +452,11 @@ color:brown;
   @media screen and (max-width: 800px) {
     .characterbox{min-width:90%;}
   }
+  main .charactermotto {
+    font-size: 1em;
+	width: fit-content;
+}
+.post-content{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}

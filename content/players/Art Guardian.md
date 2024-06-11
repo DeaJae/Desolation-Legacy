@@ -8,4 +8,4 @@ contact: "Desolation Discord"
 quote: "Balkeh shut the fok up!"
 ---
 
-Possibly gone
+Went to the shops many years ago for smokes, hasn't come back.
