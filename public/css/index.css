@@ -52,7 +52,7 @@ body {
 	
 }
 
-html {
+body {
 	overflow-y: scroll;
 	background-image: url(/img/deso-legacy-min-1280.png); 
 	background-position: top; 
@@ -102,6 +102,7 @@ main {
 	max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+	min-height: 500px;
 }
 main :first-child {
 	margin-top: 0;
