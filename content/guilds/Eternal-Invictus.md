@@ -1,6 +1,6 @@
 ---
 title: "Eternal Invictus"
-guildLogo: "/img/guildimgs/Eternal-Invictus-512.png"
+guildLogo: "/img/guildimgs/Eternal-Invictus-128.png"
 guildHall: "Gilded Hollow"
 guildLevel: 69
 guildTag: INVI
