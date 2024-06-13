@@ -6,6 +6,15 @@ eleventyNavigation:
 numberOfLatestPostsToShow: 3
 
 ---
+
+<h2>Welcome to Desolation Legacy,</h2>
+
+<div class="intro">This site was created to remember Guilds and Players on Desolation after World Restructuring kills named Servers in favour of Guild based teams in World vs World.
+<p> This is entirely built from players memories, so a group effort is required to get everything right.
+<p> We also still have the <a href="https://dc.desolation.info">Desolation Discord (Desolation DayCare or Desocord as we called it), feel free to join it and see if theres anyone you recognize!</a>
+
+</div>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
