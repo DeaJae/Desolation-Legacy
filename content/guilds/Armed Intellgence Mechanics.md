@@ -4,5 +4,8 @@ guildLogo: "/img/guildimgs/Armed Intelligence Mechanics-128.png"
 guildHall: "Gilded Hollow"
 guildLevel: 69
 guildTag: AIM
+members:
+    - Fearfool
+    - Loth
 ---
-text
+Add some information
