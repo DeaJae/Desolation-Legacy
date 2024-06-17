@@ -7,5 +7,6 @@ guildTag: AIM
 members:
     - Fearfool
     - Loth
+    - Black Lion Key
 ---
 Add some information
