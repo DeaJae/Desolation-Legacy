@@ -5,4 +5,3 @@ guildHall: "Sandswept Haven"
 guildLevel: 69
 guildTag: RG
 ---
-Add some information
