@@ -6,4 +6,4 @@ guildLevel: 69
 guildTag: DC
 members:
 ---
-Add some information
+An early attempt at a training and 'call to arms' guild. 

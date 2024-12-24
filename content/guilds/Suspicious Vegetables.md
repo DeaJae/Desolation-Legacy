@@ -6,4 +6,4 @@ guildLevel:
 guildTag: SUS
 ---
 
-text
+A late Desolation casual/fun guild.

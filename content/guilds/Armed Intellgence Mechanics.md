@@ -9,4 +9,5 @@ members:
     - Loth
     - Black Lion Key
 ---
-Add some information
+
+Early Desolation guild which helped in creating the (still alive!) Desolation Community discord and helping with the Desolation Community guild (sort of not alive!).

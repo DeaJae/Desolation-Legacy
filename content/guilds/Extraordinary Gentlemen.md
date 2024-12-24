@@ -5,5 +5,7 @@ guildHall:
 guildLevel:
 guildTag: EXG
 members:
+    - Rubio
+
 ---
-Add some information
+Early Desolation guild which spread into other guilds, and disappeared. Few can still be seen around in WvW

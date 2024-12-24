@@ -15,6 +15,4 @@ Joined Eternal Iron in 2013, part of the IRON alliance (IRON Triangle, Iron Hall
 
 Eternal Invictus rose from that, and that lasted for around 2 years before everyone went their own ways.
 
-A community leader who gave resources to Desolation for it to better itself.
-
-Often has to put a foot down when people are being too silly.
+Often 'has to do bloody everything around here!' attitude to fixing the Community, giving up time and resources (old Desolation site) and still has time/energy for practical jokes invovling the discord and April Fools versions of the site despite being driven to the point of exasperation by stupid things/people.
