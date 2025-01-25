@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: April Fools
+  order: 5
+---
+<h1>April Fools Archive</h1>
+A collection of previous April Fools Desolation Homepages
+
+
+{% set postslist = collections.april %}
+{% include "postslist.njk" %}
